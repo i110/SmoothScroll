@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08301D7415503F9D00FC0B4C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08301D7315503F9D00FC0B4C /* UIKit.framework */; };
+		08301D7615503F9D00FC0B4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08301D7515503F9D00FC0B4C /* Foundation.framework */; };
+		08301D7815503F9D00FC0B4C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08301D7715503F9D00FC0B4C /* CoreGraphics.framework */; };
+		08301D7E15503F9D00FC0B4C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08301D7C15503F9D00FC0B4C /* InfoPlist.strings */; };
+		08301D8015503F9D00FC0B4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08301D7F15503F9D00FC0B4C /* main.m */; };
+		08301D8415503F9D00FC0B4C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08301D8315503F9D00FC0B4C /* AppDelegate.m */; };
+		08301D8715503F9D00FC0B4C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08301D8615503F9D00FC0B4C /* ViewController.m */; };
+		08301D8A15503F9D00FC0B4C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08301D8815503F9D00FC0B4C /* ViewController.xib */; };
+		08301D921550400A00FC0B4C /* SmoothScrollBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 08301D911550400A00FC0B4C /* SmoothScrollBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08301D6F15503F9D00FC0B4C /* SmoothScrollSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmoothScrollSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08301D7315503F9D00FC0B4C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		08301D7515503F9D00FC0B4C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		08301D7715503F9D00FC0B4C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		08301D7B15503F9D00FC0B4C /* SmoothScrollSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmoothScrollSample-Info.plist"; sourceTree = "<group>"; };
+		08301D7D15503F9D00FC0B4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08301D7F15503F9D00FC0B4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08301D8115503F9D00FC0B4C /* SmoothScrollSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmoothScrollSample-Prefix.pch"; sourceTree = "<group>"; };
+		08301D8215503F9D00FC0B4C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		08301D8315503F9D00FC0B4C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		08301D8515503F9D00FC0B4C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		08301D8615503F9D00FC0B4C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		08301D8915503F9D00FC0B4C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		08301D901550400A00FC0B4C /* SmoothScrollBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SmoothScrollBar.h; path = ../../../SmoothScrollBar.h; sourceTree = "<group>"; };
+		08301D911550400A00FC0B4C /* SmoothScrollBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SmoothScrollBar.m; path = ../../../SmoothScrollBar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08301D6C15503F9D00FC0B4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08301D7415503F9D00FC0B4C /* UIKit.framework in Frameworks */,
+				08301D7615503F9D00FC0B4C /* Foundation.framework in Frameworks */,
+				08301D7815503F9D00FC0B4C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08301D6415503F9D00FC0B4C = {
+			isa = PBXGroup;
+			children = (
+				08301D7915503F9D00FC0B4C /* SmoothScrollSample */,
+				08301D7215503F9D00FC0B4C /* Frameworks */,
+				08301D7015503F9D00FC0B4C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08301D7015503F9D00FC0B4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08301D6F15503F9D00FC0B4C /* SmoothScrollSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08301D7215503F9D00FC0B4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08301D7315503F9D00FC0B4C /* UIKit.framework */,
+				08301D7515503F9D00FC0B4C /* Foundation.framework */,
+				08301D7715503F9D00FC0B4C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08301D7915503F9D00FC0B4C /* SmoothScrollSample */ = {
+			isa = PBXGroup;
+			children = (
+				08301D901550400A00FC0B4C /* SmoothScrollBar.h */,
+				08301D911550400A00FC0B4C /* SmoothScrollBar.m */,
+				08301D8215503F9D00FC0B4C /* AppDelegate.h */,
+				08301D8315503F9D00FC0B4C /* AppDelegate.m */,
+				08301D8515503F9D00FC0B4C /* ViewController.h */,
+				08301D8615503F9D00FC0B4C /* ViewController.m */,
+				08301D8815503F9D00FC0B4C /* ViewController.xib */,
+				08301D7A15503F9D00FC0B4C /* Supporting Files */,
+			);
+			path = SmoothScrollSample;
+			sourceTree = "<group>";
+		};
+		08301D7A15503F9D00FC0B4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08301D7B15503F9D00FC0B4C /* SmoothScrollSample-Info.plist */,
+				08301D7C15503F9D00FC0B4C /* InfoPlist.strings */,
+				08301D7F15503F9D00FC0B4C /* main.m */,
+				08301D8115503F9D00FC0B4C /* SmoothScrollSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08301D6E15503F9D00FC0B4C /* SmoothScrollSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08301D8D15503F9D00FC0B4C /* Build configuration list for PBXNativeTarget "SmoothScrollSample" */;
+			buildPhases = (
+				08301D6B15503F9D00FC0B4C /* Sources */,
+				08301D6C15503F9D00FC0B4C /* Frameworks */,
+				08301D6D15503F9D00FC0B4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmoothScrollSample;
+			productName = SmoothScrollSample;
+			productReference = 08301D6F15503F9D00FC0B4C /* SmoothScrollSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08301D6615503F9D00FC0B4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 08301D6915503F9D00FC0B4C /* Build configuration list for PBXProject "SmoothScrollSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08301D6415503F9D00FC0B4C;
+			productRefGroup = 08301D7015503F9D00FC0B4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08301D6E15503F9D00FC0B4C /* SmoothScrollSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08301D6D15503F9D00FC0B4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08301D7E15503F9D00FC0B4C /* InfoPlist.strings in Resources */,
+				08301D8A15503F9D00FC0B4C /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08301D6B15503F9D00FC0B4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08301D8015503F9D00FC0B4C /* main.m in Sources */,
+				08301D8415503F9D00FC0B4C /* AppDelegate.m in Sources */,
+				08301D8715503F9D00FC0B4C /* ViewController.m in Sources */,
+				08301D921550400A00FC0B4C /* SmoothScrollBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		08301D7C15503F9D00FC0B4C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08301D7D15503F9D00FC0B4C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		08301D8815503F9D00FC0B4C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08301D8915503F9D00FC0B4C /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08301D8B15503F9D00FC0B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		08301D8C15503F9D00FC0B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08301D8E15503F9D00FC0B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmoothScrollSample/SmoothScrollSample-Prefix.pch";
+				INFOPLIST_FILE = "SmoothScrollSample/SmoothScrollSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		08301D8F15503F9D00FC0B4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmoothScrollSample/SmoothScrollSample-Prefix.pch";
+				INFOPLIST_FILE = "SmoothScrollSample/SmoothScrollSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08301D6915503F9D00FC0B4C /* Build configuration list for PBXProject "SmoothScrollSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08301D8B15503F9D00FC0B4C /* Debug */,
+				08301D8C15503F9D00FC0B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08301D8D15503F9D00FC0B4C /* Build configuration list for PBXNativeTarget "SmoothScrollSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08301D8E15503F9D00FC0B4C /* Debug */,
+				08301D8F15503F9D00FC0B4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08301D6615503F9D00FC0B4C /* Project object */;
+}
